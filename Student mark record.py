@@ -19,7 +19,7 @@ for record in records:
     record.mark = int(input("Please enter a mark: "))
 Name = "Name"
 Mark = "Mark"
-print("{0:<4} {1:<4}".format(Name, Mark))
+print("{0:<6} {1:<4}".format(Name, Mark))
 for record in records:
-      print("{0:^4} {1:^4}".format(record.name,record.mark))
+      print("{0:6} {1:^4}".format(record.name,record.mark))
     
